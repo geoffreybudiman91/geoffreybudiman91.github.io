@@ -41,7 +41,7 @@ const AboutMe = () => {
           viewport={{ once: true }}
           variants={textVariants}
         >
-          <a name="about">About Me</a>
+          About Me
         </motion.h2>
         <motion.p
           initial="hidden"
@@ -84,7 +84,7 @@ const AboutMe = () => {
           viewport={{ once: true }}
           variants={containerVariants}
         >
-          <a name="skills"><h2>Technical Skills</h2></a>
+          <h2>Technical Skills</h2>
           <ul className="skills-icons">
             <motion.li variants={listItemVariants}><span className="iconify" data-icon="logos:javascript" data-inline="false" data-width="90px" data-height="90px"></span><span>JavaScript</span></motion.li>
             <motion.li variants={listItemVariants}><span className="iconify" data-icon="logos:react" data-inline="false" data-width="90px" data-height="90px"></span><span>React</span></motion.li>

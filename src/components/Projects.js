@@ -183,7 +183,7 @@ const Projects = () => {
           viewport={{ once: true }}
           variants={textVariants}
         >
-            <a name="projects"><h2>My Projects</h2></a>
+            <h2>My Projects</h2>
         </motion.p>
       <div className="projects-container">
         {projects.map((project, index) => (          
