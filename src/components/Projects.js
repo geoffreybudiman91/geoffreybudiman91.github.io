@@ -43,7 +43,7 @@ const projects = [
     name: 'Resy Bot',
     description: 'This web app was created along with several other NYU students to be able to obtain hard to get reservations on resy.com. Users would be able to create accounts and input their Resy account information. Then, they would be able to submit requests for our bot to make reservations on a specific date. Our bot would then automatically attempt to fulfill these requests. While active, our bot was able to help our users book some of the most sought after reservations in New York City.',
     imageUrl: '../assets/images/project3.jpg',
-    technologies: ['logos:javascript', 'logos:nodejs-icon', 'simple-icons:express', 'bxl:mongodb', 'logos:react', "logos:chai"],
+    technologies: ['logos:javascript', 'logos:nodejs-icon', 'simple-icons:express', 'bxl:mongodb', 'logos:react', "logos:chai", 'logos:docker-icon'],
     links: [
       { label: 'GitHub', url: 'https://github.com/geoffreybudiman91/resybot' },
     ],
