@@ -5,7 +5,7 @@ import '../assets/styles/Projects.css';
 const projects = [
   {
     name: 'Programming Tools for the Data Scientist Final Project',
-    description: 'Along with two other NYU students, I conducted a comprehensive data analysis on the data science job market using techniques we learned in the class. In this study, we identified the key factors that affect data science salaries, analyzed geographic salary disparities, pinpointing states and cities with the highest-paying data science jobs, and created and tested several models to predict the average salary for a data science job based on the factors that we have identified.',
+    description: 'Along with two other NYU students, I conducted a comprehensive data analysis on the data science job market using techniques we learned in the class. In this study, we identified the key factors that affected data science salaries, analyzed geographic salary disparities, pinpointing states and cities with the highest-paying data science jobs, and created and tested several models to predict the average salary for a data science job based on the factors that we have identified.',
     imageUrl: '../assets/images/project1.jpg',
     technologies: ['logos:python', 'devicon:pandas', 'simple-icons:scipy', 'devicon:matplotlib'],
     links: [
