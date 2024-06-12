@@ -1,0 +1,71 @@
+.about-me-section {
+  position: relative;
+  background-image: url('../images/aboutme-background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 75px 0;
+}
+
+.about-me-content {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 75px;
+  margin: auto;
+  max-width: 60%;
+  border-radius: 10px;
+  text-align: center;
+  position: sticky;
+  top: 20px;
+}
+
+.about-me-content h2 {
+  margin-bottom: 10px;
+}
+
+.about-me-content p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.main-font {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.skills-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.skills-icons li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-icons li:hover {
+  transform: scale(1.2);
+}
+
+.skills-icons .iconify {
+  transition: transform 0.3s ease-in-out;
+}
+
+.skills-icons li:hover .iconify {
+  transform: scale(1.2);
+}
+
+.skills-icons span {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.2em;
+  transition: transform 0.3s ease-in-out;
+}

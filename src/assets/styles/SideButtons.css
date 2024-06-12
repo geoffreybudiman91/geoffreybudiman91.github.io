@@ -1,0 +1,46 @@
+.side-buttons {
+  position: fixed;
+  left: 20px;
+  top: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.side-buttons.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.side-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.side-button:hover {
+  transform: scale(1.1);
+}
+
+.side-button.github {
+  background-color: #333;
+}
+
+.side-button.linkedin {
+  background-color: #0077b5;
+}
+
+.side-button.email {
+  background-color: #d14836;
+}
