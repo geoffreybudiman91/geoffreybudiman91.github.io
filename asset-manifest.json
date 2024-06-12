@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.944c5b76.css",
+    "main.css": "/portfolio-website/static/css/main.565ab02d.css",
     "main.js": "/portfolio-website/static/js/main.58bf7d1c.js",
     "static/media/aboutme-background.jpg": "/portfolio-website/static/media/aboutme-background.027d91ec6a933ff83013.jpg",
     "static/media/profile-picture.jpg": "/portfolio-website/static/media/profile-picture.7997f1c83fed70289acd.jpg",
     "static/media/GeoffreyBudiman_Resume.pdf": "/portfolio-website/static/media/GeoffreyBudiman_Resume.af6fc7eba71e072d5376.pdf",
     "index.html": "/portfolio-website/index.html",
-    "main.944c5b76.css.map": "/portfolio-website/static/css/main.944c5b76.css.map",
+    "main.565ab02d.css.map": "/portfolio-website/static/css/main.565ab02d.css.map",
     "main.58bf7d1c.js.map": "/portfolio-website/static/js/main.58bf7d1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.944c5b76.css",
+    "static/css/main.565ab02d.css",
     "static/js/main.58bf7d1c.js"
   ]
 }
