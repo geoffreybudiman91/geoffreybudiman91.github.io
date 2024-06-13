@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.78e4406f.css",
-    "main.js": "/static/js/main.8fd682d5.js",
+    "main.css": "/static/css/main.f3a6c28d.css",
+    "main.js": "/static/js/main.52747208.js",
     "static/media/aboutme-background.jpg": "/static/media/aboutme-background.027d91ec6a933ff83013.jpg",
     "static/media/Project.ipynb": "/static/media/Project.4b7e6cfb9383c2c05681.ipynb",
     "static/media/profile-picture.jpg": "/static/media/profile-picture.7997f1c83fed70289acd.jpg",
     "static/media/STAT-UB_103_Project.pdf": "/static/media/STAT-UB_103_Project.5a4d3473b23fde87ac9d.pdf",
     "static/media/GeoffreyBudiman_Resume.pdf": "/static/media/GeoffreyBudiman_Resume.af6fc7eba71e072d5376.pdf",
+    "static/media/PTFDS_Project.png": "/static/media/PTFDS_Project.ebde12cb6dc4a21f766b.png",
+    "static/media/STATUB103_Project.png": "/static/media/STATUB103_Project.4a409ea30e974d20a114.png",
+    "static/media/TranscriptGenerator.png": "/static/media/TranscriptGenerator.d45e37eb221cb0c3d1db.png",
+    "static/media/SKUManagement.png": "/static/media/SKUManagement.f0d76b338e19d09864a5.png",
+    "static/media/ResyBot.png": "/static/media/ResyBot.1775205ea9e5918348d9.png",
     "index.html": "/index.html",
-    "main.78e4406f.css.map": "/static/css/main.78e4406f.css.map",
-    "main.8fd682d5.js.map": "/static/js/main.8fd682d5.js.map"
+    "main.f3a6c28d.css.map": "/static/css/main.f3a6c28d.css.map",
+    "main.52747208.js.map": "/static/js/main.52747208.js.map"
   },
   "entrypoints": [
-    "static/css/main.78e4406f.css",
-    "static/js/main.8fd682d5.js"
+    "static/css/main.f3a6c28d.css",
+    "static/js/main.52747208.js"
   ]
 }
