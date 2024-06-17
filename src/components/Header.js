@@ -6,8 +6,11 @@ import profilePicture from '../assets/images/profile-picture.jpg';
 const Header = () => {
   useEffect(() => {
     // Load the particles.js configuration
-    window.particlesJS("particles-js", {
-      "particles": {
+    const script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
+    script.onload = () => {
+      window.particlesJS("particles-js", {
+        "particles": {
         "number": {
           "value": 96,
           "density": {
@@ -116,32 +119,9 @@ const Header = () => {
       },
       "retina_detect": true
     });
-
-    const script = document.createElement('script');
-    script.src = 'http://threejs.org/examples/js/libs/stats.min.js';
-    script.onload = () => {
-      const stats = new window.Stats();
-      stats.setMode(0);
-      stats.domElement.style.position = 'absolute';
-      stats.domElement.style.left = '0px';
-      stats.domElement.style.top = '0px';
-      document.body.appendChild(stats.domElement);
-
-      const count_particles = document.querySelector('.js-count-particles');
-
-      const update = () => {
-        stats.begin();
-        stats.end();
-        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-          count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-        }
-        requestAnimationFrame(update);
-      };
-      requestAnimationFrame(update);
-    };
-
-    document.body.appendChild(script);
-  }, []);
+  };
+  document.body.appendChild(script);
+}, []);
 
   return (
     <div className="header">
@@ -167,7 +147,7 @@ const Header = () => {
             <i className="fab fa-linkedin fa-2x"></i> LinkedIn
           </a>
           <a href="mailto:geoffrey.budiman@gmail.com" className="btn">
-            <i class="fa-regular fa-envelope fa-2x"></i> Email
+            <i className="fa-regular fa-envelope fa-2x"></i> Email
           </a>
         </div>
       </div>

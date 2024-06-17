@@ -36,6 +36,11 @@
   color: #000;
 }
 
+.resume-container {
+  margin: 75px;
+  transition: transform 0.3s ease-in-out;
+}
+
 .skills-icons {
   list-style: none;
   padding: 0;
@@ -49,18 +54,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.skills-icons li:hover {
-  transform: scale(1.2);
-}
-
-.skills-icons .iconify {
-  transition: transform 0.3s ease-in-out;
-}
-
-.skills-icons li:hover .iconify {
-  transform: scale(1.2);
 }
 
 .skills-icons span {

@@ -68,11 +68,12 @@ const AboutMe = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={containerVariants}
+          className='resume-container'
         >
           <h2>Check out my Resume</h2>
           <iframe 
             src={resume} 
-            width="80%" 
+            width="75%" 
             height="750px" 
             style={{ border: 'none' }} 
             title="My Resume"
