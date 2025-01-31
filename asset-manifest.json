@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f3a6c28d.css",
-    "main.js": "/static/js/main.20cd6143.js",
+    "main.js": "/static/js/main.0e6a058a.js",
     "static/media/aboutme-background.jpg": "/static/media/aboutme-background.027d91ec6a933ff83013.jpg",
     "static/media/Project.ipynb": "/static/media/Project.4b7e6cfb9383c2c05681.ipynb",
     "static/media/profile-picture.jpg": "/static/media/profile-picture.7997f1c83fed70289acd.jpg",
@@ -10,15 +10,15 @@
     "static/media/PTFDS_Project.png": "/static/media/PTFDS_Project.ebde12cb6dc4a21f766b.png",
     "static/media/STATUB103_Project.png": "/static/media/STATUB103_Project.4a409ea30e974d20a114.png",
     "static/media/TranscriptGenerator.png": "/static/media/TranscriptGenerator.d45e37eb221cb0c3d1db.png",
-    "static/media/SpotifyStats.jpg": "/static/media/SpotifyStats.8c2935208b4030ec315f.jpg",
     "static/media/SKUManagement.png": "/static/media/SKUManagement.f0d76b338e19d09864a5.png",
+    "static/media/SpotifyStats.jpg": "/static/media/SpotifyStats.cadf676ad97a7f9b9a1a.jpg",
     "static/media/ResyBot.png": "/static/media/ResyBot.1775205ea9e5918348d9.png",
     "index.html": "/index.html",
     "main.f3a6c28d.css.map": "/static/css/main.f3a6c28d.css.map",
-    "main.20cd6143.js.map": "/static/js/main.20cd6143.js.map"
+    "main.0e6a058a.js.map": "/static/js/main.0e6a058a.js.map"
   },
   "entrypoints": [
     "static/css/main.f3a6c28d.css",
-    "static/js/main.20cd6143.js"
+    "static/js/main.0e6a058a.js"
   ]
 }
